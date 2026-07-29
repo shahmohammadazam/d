@@ -6,22 +6,20 @@ A single-page academic portfolio site — about, research highlights, publicatio
 
 ## Live site
 
-https://shahmohammadazam.github.io/d/DOCTYPE.html
-
-Note that the repository root (`/d/`) currently returns 404, because GitHub Pages serves `index.html` at a directory root and this repository's page is named `DOCTYPE.html`. Renaming the file to `index.html` would make the short URL work.
+https://shahmohammadazam.github.io/d/
 
 ## What's in here
 
 | Path | Purpose |
 | --- | --- |
-| `DOCTYPE.html` | The entire site — markup, styles, and scripts in one file |
+| `index.html` | The entire site — markup, styles, and scripts in one file |
 | `.github/workflows/static.yml` | Deploys the repository to GitHub Pages on every push to `main` |
 
 There is no build step and no dependencies to install. [Tailwind CSS](https://tailwindcss.com) and the Inter font are loaded from CDNs at page load.
 
 ## Editing the page
 
-Open `DOCTYPE.html` in a browser to preview it, and in any editor to change it. Placeholders are marked with `CUSTOMIZE` comments:
+Open `index.html` in a browser to preview it, and in any editor to change it. Placeholders are marked with `CUSTOMIZE` comments:
 
 ```html
 <!-- CUSTOMIZE: Replace with your name -->
